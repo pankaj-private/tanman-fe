@@ -1,0 +1,58 @@
+// src/components/HomePage/HomePage.scss
+
+.home-page {
+
+  .main-industry {
+    padding: 25px;
+    height: 19.438rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://dpp-s3-data.s3.amazonaws.com/stage-cs-attachment/public/Frame+69+(1).svg'), #011054;
+
+
+    .ind-head {
+      font-family: "Open Sans", sans-serif !important;
+      font-weight: 800;
+      font-size: 2.5rem;
+      text-align: center;
+      color: #fff;
+    }
+
+    .ind-content {
+      font-family: "Open Sans", sans-serif !important;
+      font-weight: 400;
+      font-size: 1.3rem;
+      text-align: center;
+      color: #fff;
+      line-height: 2;
+    }
+
+    .ind-button {
+      padding: 15px 0 0 0;
+    }
+
+    .main-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 12.4vw;
+      height: 2.5rem;
+      background: #e1593e;
+      gap: 8px;
+      border-radius: 8px;
+      padding: 8px 12px 8px 15px;
+      cursor: pointer;
+
+      .content3 {
+        color: #fff;
+        font-family: "Open Sans", sans-serif !important;
+        font-size: 1rem;
+        margin: -6px;
+      }
+    }
+  }
+
+}
